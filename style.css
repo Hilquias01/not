@@ -1,0 +1,19 @@
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+li {
+    padding: 4px;
+}
+
+
+ol li:not(:first-child, :last-child) {
+    background: #adf;
+}
+
+
+section h2:not(.contato) {
+    text-decoration: underline;
+}
